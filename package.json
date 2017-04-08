@@ -1,0 +1,31 @@
+{
+	"name": "clusteratlas-cdn",
+	"version": "0.0.1",
+	"description": "",
+	"license": "MIT",
+	"repository": "https://github.com/clusteratlas/clusteratlas-cdn",
+	"author": {
+		"name": "clusteratlas",
+		"email": "clusteratlas@hotmail.com",
+		"url": "http://twitter.com/clusteratlas"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava --verbose"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"cluster", "atlas"
+	],
+	"dependencies": {
+		"uuid-random": "^1.0.5"
+		},
+	"devDependencies": {
+		"ava": "^0.17.0",
+		"xo": "^0.17.0"
+	}
+}
